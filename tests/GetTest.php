@@ -1,9 +1,9 @@
 <?php
 
-namespace Rennokki\QueryCache\Test;
+namespace Henriquex25\QueryCache\Test;
 
 use Illuminate\Support\Facades\Cache;
-use Rennokki\QueryCache\Test\Models\Post;
+use Henriquex25\QueryCache\Test\Models\Post;
 
 class GetTest extends TestCase
 {

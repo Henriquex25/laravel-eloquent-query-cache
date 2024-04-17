@@ -1,11 +1,11 @@
 <?php
 
-namespace Rennokki\QueryCache\Query;
+namespace Henriquex25\QueryCache\Query;
 
 use Illuminate\Database\Query\Builder as BaseBuilder;
 use Illuminate\Support\Arr;
-use Rennokki\QueryCache\Contracts\QueryCacheModuleInterface;
-use Rennokki\QueryCache\Traits\QueryCacheModule;
+use Henriquex25\QueryCache\Contracts\QueryCacheModuleInterface;
+use Henriquex25\QueryCache\Traits\QueryCacheModule;
 
 class Builder extends BaseBuilder implements QueryCacheModuleInterface
 {

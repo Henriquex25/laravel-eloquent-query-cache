@@ -1,9 +1,9 @@
 <?php
 
-namespace Rennokki\QueryCache\Traits;
+namespace Henriquex25\QueryCache\Traits;
 
-use Rennokki\QueryCache\FlushQueryCacheObserver;
-use Rennokki\QueryCache\Query\Builder;
+use Henriquex25\QueryCache\FlushQueryCacheObserver;
+use Henriquex25\QueryCache\Query\Builder;
 
 /**
  * @method static bool flushQueryCache(array $tags = [])

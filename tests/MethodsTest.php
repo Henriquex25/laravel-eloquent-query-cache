@@ -1,12 +1,12 @@
 <?php
 
-namespace Rennokki\QueryCache\Test;
+namespace Henriquex25\QueryCache\Test;
 
 use Illuminate\Support\Facades\Cache;
-use Rennokki\QueryCache\Test\Models\Book;
-use Rennokki\QueryCache\Test\Models\Kid;
-use Rennokki\QueryCache\Test\Models\Post;
-use Rennokki\QueryCache\Test\Models\User;
+use Henriquex25\QueryCache\Test\Models\Book;
+use Henriquex25\QueryCache\Test\Models\Kid;
+use Henriquex25\QueryCache\Test\Models\Post;
+use Henriquex25\QueryCache\Test\Models\User;
 
 class MethodsTest extends TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Rennokki\QueryCache\Test\Models;
+namespace Henriquex25\QueryCache\Test\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Rennokki\QueryCache\Traits\QueryCacheable;
+use Henriquex25\QueryCache\Traits\QueryCacheable;
 
 class Page extends Model
 {

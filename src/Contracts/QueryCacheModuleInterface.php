@@ -1,6 +1,6 @@
 <?php
 
-namespace Rennokki\QueryCache\Contracts;
+namespace Henriquex25\QueryCache\Contracts;
 
 interface QueryCacheModuleInterface
 {
