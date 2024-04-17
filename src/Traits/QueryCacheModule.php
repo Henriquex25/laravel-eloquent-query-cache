@@ -4,6 +4,7 @@ namespace Rennokki\QueryCache\Traits;
 
 use BadMethodCallException;
 use DateTime;
+use Illuminate\Support\Facades\App;
 
 trait QueryCacheModule
 {
@@ -366,6 +367,10 @@ trait QueryCacheModule
      */
     public function shouldAvoidCache(): bool
     {
+        if (!config('eloquent-query-cache.enabled') || App::environment('testing')) {
+            return true;
+        }
+
         return $this->avoidCache;
     }
 

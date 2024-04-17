@@ -1,0 +1,30 @@
+name: Create Release Tag
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  create_release_tag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Get Version from composer.json
+        id: get_version
+        run: echo "::set-output name=version::$(jq -r '.version' composer.json)"
+
+      - name: Create Release Tag
+        id: create_tag
+        run: |
+          # Obtém a versão do composer.json
+          VERSION=${{ steps.get_version.outputs.version }}
+
+          # Cria a nova tag
+          git tag $VERSION
+          git push origin $VERSION
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
