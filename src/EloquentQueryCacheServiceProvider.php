@@ -1,6 +1,6 @@
 <?php
 
-namespace Henriquex25\EloquentQueryCache\EloquentQueryCacheServiceProvider;
+namespace Henriquex25\EloquentQueryCache;
 
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
