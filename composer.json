@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.1",
+    "version": "v1.1.2",
     "name": "henriquex25/laravel-eloquent-query-cache",
     "description": "Adding cache on your Laravel Eloquent queries' results is now a breeze.",
     "keywords": [
@@ -49,5 +49,12 @@
         "sort-packages": true
     },
     "prefer-stable": true,
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Henriquex25\\Provider\\ServiceProvider"
+            ]
+        }
+    }
 }
