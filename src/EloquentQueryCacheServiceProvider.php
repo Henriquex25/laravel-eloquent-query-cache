@@ -4,7 +4,7 @@ namespace Henriquex25\Provider\ServiceProvider;
 
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
-class ServiceProvider extends IlluminateServiceProvider
+class EloquentQueryCacheServiceProvider extends IlluminateServiceProvider
 {
     public function register(): void
     {
