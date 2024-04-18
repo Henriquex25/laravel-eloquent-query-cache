@@ -1,6 +1,6 @@
 <?php
 
-namespace Henriquex25\QueryCache\Contracts;
+namespace Henriquex25\LaravelEloquentQueryCache\Contracts;
 
 interface QueryCacheModuleInterface
 {

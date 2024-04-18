@@ -1,11 +1,11 @@
 <?php
 
-namespace Henriquex25\QueryCache\Query;
+namespace Henriquex25\LaravelEloquentQueryCache\Query;
 
 use Illuminate\Database\Query\Builder as BaseBuilder;
 use Illuminate\Support\Arr;
-use Henriquex25\QueryCache\Contracts\QueryCacheModuleInterface;
-use Henriquex25\QueryCache\Traits\QueryCacheModule;
+use Henriquex25\LaravelEloquentQueryCache\Contracts\QueryCacheModuleInterface;
+use Henriquex25\LaravelEloquentQueryCache\Traits\QueryCacheModule;
 
 class Builder extends BaseBuilder implements QueryCacheModuleInterface
 {

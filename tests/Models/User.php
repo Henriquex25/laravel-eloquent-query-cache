@@ -1,11 +1,11 @@
 <?php
 
-namespace Henriquex25\QueryCache\Test\Models;
+namespace Henriquex25\LaravelEloquentQueryCache\Test\Models;
 
 use Chelout\RelationshipEvents\Concerns\HasBelongsToManyEvents;
 use Chelout\RelationshipEvents\Traits\HasRelationshipObservables;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Henriquex25\QueryCache\Traits\QueryCacheable;
+use Henriquex25\LaravelEloquentQueryCache\Traits\QueryCacheable;
 
 class User extends Authenticatable
 {

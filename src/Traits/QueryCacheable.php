@@ -1,9 +1,9 @@
 <?php
 
-namespace Henriquex25\QueryCache\Traits;
+namespace Henriquex25\LaravelEloquentQueryCache\Traits;
 
-use Henriquex25\QueryCache\FlushQueryCacheObserver;
-use Henriquex25\QueryCache\Query\Builder;
+use Henriquex25\LaravelEloquentQueryCache\FlushQueryCacheObserver;
+use Henriquex25\LaravelEloquentQueryCache\Query\Builder;
 
 /**
  * @method static bool flushQueryCache(array $tags = [])

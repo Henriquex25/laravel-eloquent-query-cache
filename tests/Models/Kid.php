@@ -1,9 +1,9 @@
 <?php
 
-namespace Henriquex25\QueryCache\Test\Models;
+namespace Henriquex25\LaravelEloquentQueryCache\Test\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Henriquex25\QueryCache\Traits\QueryCacheable;
+use Henriquex25\LaravelEloquentQueryCache\Traits\QueryCacheable;
 
 class Kid extends Model
 {

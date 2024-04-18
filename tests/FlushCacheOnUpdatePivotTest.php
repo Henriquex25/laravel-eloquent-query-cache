@@ -1,9 +1,9 @@
 <?php
 
-namespace Henriquex25\QueryCache\Test;
+namespace Henriquex25\LaravelEloquentQueryCache\Test;
 
-use Henriquex25\QueryCache\Test\Models\Role;
-use Henriquex25\QueryCache\Test\Models\User;
+use Henriquex25\LaravelEloquentQueryCache\Test\Models\Role;
+use Henriquex25\LaravelEloquentQueryCache\Test\Models\User;
 
 class FlushCacheOnUpdatePivotTest extends TestCase
 {

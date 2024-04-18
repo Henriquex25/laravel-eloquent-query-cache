@@ -22,12 +22,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Henriquex25\\QueryCache\\": "src/"
+            "Henriquex25\\LaravelEloquentQueryCache\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Henriquex25\\QueryCache\\Test\\": "tests"
+            "Henriquex25\\LaravelEloquentQueryCache\\Test\\": "tests"
         }
     },
     "scripts": {

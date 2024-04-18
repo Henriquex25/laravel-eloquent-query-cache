@@ -12,7 +12,7 @@
 
 use Illuminate\Support\Str;
 
-$factory->define(\Henriquex25\QueryCache\Test\Models\User::class, function () {
+$factory->define(\Henriquex25\LaravelEloquentQueryCache\Test\Models\User::class, function () {
     return [
         'name' => 'Name'.Str::random(5),
         'email' => Str::random(5).'@gmail.com',

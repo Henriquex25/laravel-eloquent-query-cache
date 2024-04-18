@@ -1,8 +1,8 @@
 <?php
 
-namespace Henriquex25\QueryCache\Test;
+namespace Henriquex25\LaravelEloquentQueryCache\Test;
 
-use Henriquex25\QueryCache\Test\Models\Page;
+use Henriquex25\LaravelEloquentQueryCache\Test\Models\Page;
 
 class FlushCacheOnUpdateTest extends TestCase
 {

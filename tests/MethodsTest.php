@@ -1,12 +1,12 @@
 <?php
 
-namespace Henriquex25\QueryCache\Test;
+namespace Henriquex25\LaravelEloquentQueryCache\Test;
 
 use Illuminate\Support\Facades\Cache;
-use Henriquex25\QueryCache\Test\Models\Book;
-use Henriquex25\QueryCache\Test\Models\Kid;
-use Henriquex25\QueryCache\Test\Models\Post;
-use Henriquex25\QueryCache\Test\Models\User;
+use Henriquex25\LaravelEloquentQueryCache\Test\Models\Book;
+use Henriquex25\LaravelEloquentQueryCache\Test\Models\Kid;
+use Henriquex25\LaravelEloquentQueryCache\Test\Models\Post;
+use Henriquex25\LaravelEloquentQueryCache\Test\Models\User;
 
 class MethodsTest extends TestCase
 {

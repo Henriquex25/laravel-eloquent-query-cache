@@ -1,6 +1,6 @@
 <?php
 
-namespace Henriquex25\QueryCache;
+namespace Henriquex25\LaravelEloquentQueryCache;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;

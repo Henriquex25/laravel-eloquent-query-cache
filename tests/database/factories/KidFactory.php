@@ -12,7 +12,7 @@
 
 use Illuminate\Support\Str;
 
-$factory->define(\Henriquex25\QueryCache\Test\Models\Kid::class, function () {
+$factory->define(\Henriquex25\LaravelEloquentQueryCache\Test\Models\Kid::class, function () {
     return [
         'name' => 'Kid'.Str::random(5),
     ];

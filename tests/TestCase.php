@@ -1,6 +1,6 @@
 <?php
 
-namespace Henriquex25\QueryCache\Test;
+namespace Henriquex25\LaravelEloquentQueryCache\Test;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Cache;
